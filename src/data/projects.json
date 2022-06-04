@@ -1,0 +1,44 @@
+[
+  {
+    "title": "studies schedule",
+    "company": "company ",
+    "description": "string",
+    "start_year": 2000,
+    "end_year": 2000,
+    "duration": 1,
+    "skills": "string",
+    "tasks": ["string", "string", "string", "string", "string"]
+  },
+  {
+    "title": "studies schedule",
+    "company": "company ",
+    "start_year": 2000,
+    "end_year": 2000,
+    "duration": 1,
+    "skills": "string"
+  },
+  {
+    "title": "studies schedule",
+    "company": "company ",
+    "start_year": 2000,
+    "end_year": 2000,
+    "duration": 1,
+    "skills": "string"
+  },
+  {
+    "title": "studies schedule",
+    "company": "company ",
+    "start_year": 2000,
+    "end_year": 2000,
+    "duration": 1,
+    "skills": "string"
+  },
+  {
+    "title": "studies schedule",
+    "company": "company ",
+    "start_year": 2000,
+    "end_year": 2000,
+    "duration": 1,
+    "skills": "string"
+  }
+]

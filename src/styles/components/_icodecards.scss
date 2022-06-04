@@ -1,0 +1,17 @@
+.card {
+  margin-top: 40;
+  border-radius: spacing(0.5);
+  transition: '0.3s';
+  width: '90%';
+  overflow: 'initial';
+  background: '#ffffff';
+}
+
+.content {
+  padding-top: 0;
+  text-align: 'left';
+  overflow-x: 'auto';
+  & table {
+    margin-bottom: 0;
+  }
+}

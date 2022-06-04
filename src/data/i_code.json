@@ -1,0 +1,38 @@
+[
+  {
+    "Code": "I code",
+    "Code_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Learn": "I Learn",
+    "Learn_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Think": "I Think",
+    "Think_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Create": "I Create",
+    "Create_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Dream": "I Dream",
+    "Dream_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Love": "I Love",
+    "Love_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Analize": "I Analize",
+    "Analize_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Listen": "I Listen",
+    "Listen_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  },
+  {
+    "Design": "I Design",
+    "Design_description": "Lorem ipsum dolor sit amet, consectetuer adipiscing elit. "
+  }
+]
