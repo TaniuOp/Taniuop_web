@@ -9,8 +9,8 @@ const MainContainer = () => {
   return (
     <>
       <Routes>
+        <Route path='/' element={<ProfileOverview />} />
         <Route path='/about' element={<About />} />
-        <Route path='/profileOverview' element={<ProfileOverview />} />
         <Route path='/contactForm' element={<ContactForm />} />
         <Route path='/skills' element={<Skills />} />
       </Routes>

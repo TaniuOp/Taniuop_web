@@ -46,22 +46,91 @@ const ICodeCards = () => {
 
   return (
     <>
-      <Card sx={{ maxWidth: 95 }}>
-        <CardHeader className={''} classes={''} title={cardsData[0].title} />
-        <CardActionArea>
-          <CardMedia
-            component='img'
-            height='140'
-            image='https://pbs.twimg.com/profile_images/1471137201287307273/pYRu-pbf_400x400.jpg'
-            alt='green iguana'
-          />
-          <CardContent className=''>
-            <Typography gutterBottom variant='h6' component='div'>
-              {cardsData[0].description}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card>
+      <div className='iCodeContainer'>
+        <Card className='card' sx={{ maxWidth: 95 }}>
+          <CardActionArea>
+            <CardHeader
+              className={''}
+              classes={''}
+              title={cardsData[0].title}
+            />
+            <CardMedia
+              component='img'
+              height='140'
+              image='https://pbs.twimg.com/profile_images/1471137201287307273/pYRu-pbf_400x400.jpg'
+              alt='green iguana'
+            />
+            <CardContent className='content'>
+              <Typography gutterBottom variant='h6' component='div'>
+                {cardsData[0].description}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+
+        <Card className='card' sx={{ maxWidth: 95 }}>
+          <CardActionArea>
+            <CardHeader
+              className={''}
+              classes={''}
+              title={cardsData[1].title}
+            />
+            <CardMedia
+              component='img'
+              height='140'
+              image='https://pbs.twimg.com/profile_images/1471137201287307273/pYRu-pbf_400x400.jpg'
+              alt='green iguana'
+            />
+            <CardContent className='content'>
+              <Typography gutterBottom variant='h6' component='div'>
+                {cardsData[1].description}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+
+        <Card className='card' sx={{ maxWidth: 95 }}>
+          <CardActionArea>
+            <CardHeader
+              className={''}
+              classes={''}
+              title={cardsData[2].title}
+            />
+            <CardMedia
+              component='img'
+              height='140'
+              image='https://pbs.twimg.com/profile_images/1471137201287307273/pYRu-pbf_400x400.jpg'
+              alt='green iguana'
+            />
+            <CardContent className='content'>
+              <Typography gutterBottom variant='h6' component='div'>
+                {cardsData[2].description}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+
+        <Card className='card' sx={{ maxWidth: 95 }}>
+          <CardActionArea>
+            <CardHeader
+              className={''}
+              classes={''}
+              title={cardsData[3].title}
+            />
+            <CardMedia
+              component='img'
+              height='140'
+              image='https://pbs.twimg.com/profile_images/1471137201287307273/pYRu-pbf_400x400.jpg'
+              alt='green iguana'
+            />
+            <CardContent className='content'>
+              <Typography gutterBottom variant='h6' component='div'>
+                {cardsData[3].description}
+              </Typography>
+            </CardContent>
+          </CardActionArea>
+        </Card>
+      </div>
     </>
   );
 };

@@ -1,17 +1,25 @@
 .card {
   margin-top: 40;
   border-radius: spacing(0.5);
-  transition: '0.3s';
-  width: '90%';
-  overflow: 'initial';
-  background: '#ffffff';
+  transition: 0.3s;
+  width: 30%;
+  overflow: initial;
+  background: #ffffff;
+  &hover {
+    transform: scale(1.1);
+  }
 }
 
 .content {
   padding-top: 0;
-  text-align: 'left';
-  overflow-x: 'auto';
+  text-align: left;
+  overflow-x: auto;
   & table {
     margin-bottom: 0;
   }
+}
+
+.iCodeContainer {
+  display: flex;
+  justify-content: space-around;
 }
